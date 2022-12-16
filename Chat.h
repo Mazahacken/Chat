@@ -6,12 +6,12 @@
 
 struct UserLoginExp
 {
-	const char* what() const noexcept override { return "error login"; }
+	//const char* what() const noexcept override { return "error login"; }
 };
 
 struct UserNameExp 
 { 
-	const char* what() const noexcept override { return "error name"; }
+	//const char* what() const noexcept override { return "error name"; }
 };
 
 class Chat
