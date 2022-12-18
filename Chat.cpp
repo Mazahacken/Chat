@@ -1,5 +1,4 @@
 #include "Chat.h"
-#include "User.h"
 #include <iostream>
 
 void Chat::login()

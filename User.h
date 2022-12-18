@@ -11,9 +11,9 @@ public:
 	{}
 	User(const User& other)
 	{
-		_login = other._login;
-		_password = other._password;
-		_name = other._name;
+		_login(other._login);
+		_password(other._password);
+		_name(other._name);
 	}
 	User& operator=(const User& other)
 	{
