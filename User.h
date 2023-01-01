@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-
+//hello new yaer
 class User
 {
 	std::string _login;
