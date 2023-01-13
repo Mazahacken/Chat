@@ -9,12 +9,8 @@ class User
 public:
 	User(const std::string& login, const std::string& password, const std::string& name) :_login(login), _password(password), _name(name)
 	{}
-	User(const User& other)
-	{
-		_login(other._login);
-		_password(other._password);
-		_name(other._name);
-	}
+	User(const User& other) : _login(other._login) _password(other._password) _name(other._name) {}
+
 	User& operator=(const User& other)
 	{
 		return *this;
