@@ -3,17 +3,17 @@
 
 void Chat::login()
 {
-	std::string login, password;
+	std::string logins, password;
 	char operation;
 
 	do
 	{
 		std::cout << "login: ";
-		std::cin >> login;
+		std::cin >> logins;
 		std::cout << "password: ";
 		std::cin >> password;
 
-		currentUser_ = getUserByLogin(login);
+		currentUser_ = getUserByLogin(logins);
 
 		if (currentUser_ == nullptr || (password != currentUser_->getPassword()))
 		{
